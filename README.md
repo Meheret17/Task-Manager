@@ -6,42 +6,42 @@ Backend for task management using express js and mongodb.
 git clone https://github.com/Meheret17/Task-Manager.git
 2. install packages<br>
 npm install express mongoose jsonwebtoken bcrypt cors dotenv
-3. Run Application
+3. Run Application<br>
 npm start
 
-#Features
--user signup and login
--JWT authentication
--password hashing with bcrypt
--task CRUD operation
--user retrival
--input validation and error handling
+#Features<br>
+-user signup and login<br>
+-JWT authentication<br>
+-password hashing with bcrypt<br>
+-task CRUD operation<br>
+-user retrival<br>
+-input validation and error handling<br>
 
-#Technologies
--Node.js
--Express.js: web framework
--MongoDB: noSQL database
--jsonwebtoken: JWT authentication
+#Technologies<br>
+-Node.js<br>
+-Express.js: web framework<br>
+-MongoDB: noSQL database<br>
+-jsonwebtoken: JWT authentication<br>
 
-#API Endpoints
-1. User Registration
-   Method: POST
-   http://localhost:3000/api/signup
-2. User Login
-   Method: POST
-   http://localhost:3000/api/login
-3. Retrive user profile
-   Method: GET
-   http://localhost:3000/api/profile
-4. Create Task
-   Method: POST
-   http://localhost:3000/api/tasks
-5. Retive Task
-   Method: GET
-   http://localhost:3000/api/tasks
-6. Update Status
-   Method: PATCH
-   http://localhost:3000/api/tasks/:id
+#API Endpoints<br>
+1. User Registration<br>
+   Method: POST<br>
+   http://localhost:3000/api/signup<br>
+2. User Login<br>
+   Method: POST<br>
+   http://localhost:3000/api/login<br>
+3. Retrive user profile<br>
+   Method: GET<br>
+   http://localhost:3000/api/profile<br>
+4. Create Task<br>
+   Method: POST<br>
+   http://localhost:3000/api/tasks<br>
+5. Retive Task<br>
+   Method: GET<br>
+   http://localhost:3000/api/tasks<br>
+6. Update Status<br>
+   Method: PATCH<br>
+   http://localhost:3000/api/tasks/:id<br>
 7. Delete Task
    Method: DELETE
    http://localhost:3000/api/tasks/:id
