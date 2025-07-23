@@ -4,7 +4,7 @@ Backend for task management using express js and mongodb.
 #installation
 1. clone the repo
 git clone https://github.com/Meheret17/Task-Manager.git
-2. install packages
+2. install packages__
 npm install express mongoose jsonwebtoken bcrypt cors dotenv
 3. Run Application
 npm start
